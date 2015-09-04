@@ -10,7 +10,7 @@
     "pretest-single-run": "npm install",
     "test-single-run": "karma start test/karma.conf.js --single-run",
     "pretest-ci": "npm install",
-    "test-ci": "karma start test/karma.conf.js --single-run --brosers PhantomJS"
+    "test-ci": "karma start test/karma.conf.js --single-run --browsers PhantomJS"
   },
   "author": "Claudio Procida",
   "license": "MIT",
