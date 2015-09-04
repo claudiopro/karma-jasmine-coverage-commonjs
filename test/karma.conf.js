@@ -7,6 +7,7 @@ module.exports = function(config) {
 		basePath: '',
 
 		plugins: [
+			'karma-phantomjs-launcher'
 			, 'karma-chrome-launcher'
 			, 'karma-coverage'
 			, 'karma-jasmine'
@@ -71,7 +72,8 @@ module.exports = function(config) {
 		// start these browsers
 		// available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
 		browsers: [
-			'Chrome'
+			'PhantomJS'
+			, 'Chrome'
 		],
 
 
