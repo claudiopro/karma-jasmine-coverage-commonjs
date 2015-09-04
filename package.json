@@ -1,13 +1,15 @@
 {
   "name": "karma-jasmine-coverage",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "repository": "https://github.com/claudiopro/karma-jasmine-coverage",
+  "description": "Boilerplate project with Karma, Jasmine and code coverage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "npm install",
+    "test": "karma start test/karma.conf.js --single-run"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Claudio Procida",
+  "license": "MIT",
   "devDependencies": {
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.9",
