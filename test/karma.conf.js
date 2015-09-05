@@ -8,6 +8,7 @@ module.exports = function(config) {
 
 		plugins: [
 			'karma-phantomjs-launcher'
+			'karma-junit-reporter'
 			, 'karma-chrome-launcher'
 			, 'karma-coverage'
 			, 'karma-jasmine'
@@ -49,7 +50,12 @@ module.exports = function(config) {
 		reporters: [
 			'progress'
 			, 'coverage'
+			, 'junit'
 		],
+
+		junitReporter: {
+			outputDir: '../test_results'
+		},
 
 
 		// web server port
