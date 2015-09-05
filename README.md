@@ -1,2 +1,2 @@
-# karma-jasmine-coverage
-Karma with Jasmine and coverage boilerplate
+# karma-jasmine-coverage-commonjs
+Karma with Jasmine, CommonJS modules and coverage boilerplate

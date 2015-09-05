@@ -1,8 +1,8 @@
 {
-  "name": "karma-jasmine-coverage",
+  "name": "karma-jasmine-coverage-commonjs",
   "version": "0.1.0",
-  "repository": "https://github.com/claudiopro/karma-jasmine-coverage",
-  "description": "Boilerplate project with Karma, Jasmine and code coverage",
+  "repository": "https://github.com/claudiopro/karma-jasmine-coverage-commonjs",
+  "description": "Boilerplate project with Karma, Jasmine, CommonJS modules and code coverage",
   "main": "index.js",
   "scripts": {
     "pretest": "npm install",
