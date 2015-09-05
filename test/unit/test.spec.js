@@ -1,3 +1,5 @@
+var test = require('../../src/js/test');
+
 describe('the test object', function() {
 	it('is defined', function() {
 		expect(test).toBeDefined();
